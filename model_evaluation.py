@@ -23,7 +23,7 @@ from matplotlib.colors import ListedColormap
 from sklearn.model_selection import KFold
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import (accuracy_score, classification_report, confusion_matrix, f1_score,
-                             plot_confusion_matrix, precision_score, recall_score, roc_auc_score, roc_curve, auc,
+                             ConfusionMatrixDisplay, precision_score, recall_score, roc_auc_score, roc_curve, auc,
                              precision_recall_curve)
 
 
@@ -192,7 +192,7 @@ def precision_recall_cv(model, X, y, kf, model_alias):
     
 def metrics_report(predicted_values, actual_values): 
 
-    conf_matrix = confusion_matrix(predicted_values, actual_values)
+    conf_matrix = confusion_matrix(actual_values, predicted_values)
 
     print("Classification Metrics Report")
     print("-----------------------------")
