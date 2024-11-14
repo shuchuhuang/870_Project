@@ -9,11 +9,11 @@ This is the project for course INCS 870 and we are team6. Our topic focuses on T
 - **Model Evaluation:** Evaluate the performance of the models using accuracy, precision, recall, and F1-score.
 ## Tech Stack
 - **Languages:** Python
-- **Libraries:**
-- Pandas Numpy pickle
-- Matplotlib and Seaborn
-- Scikit-learn
-- XGBoost
+- **Libraries:** <br>
+  Pandas Numpy pickle <br>
+  Matplotlib and Seaborn <br>
+  Scikit-learn <br>
+  XGBoost <br>
  
 - **Environment:** Jupyter Notebook
 
@@ -29,13 +29,14 @@ Follow these steps to get the project up and running on your local machine.
    git clone https://github.com/shuchuhuang/870_Project.git
 
 2. **Go to project folder**
+     ```bash
    cd yourprojectname
+     
 3. **Create a virtual environment (optional but recommended)**
-   It is a good practice to create a virtual environment to avoid dependency conflicts with other projects
-
-4.**Install dependencies and set up envs**
-5.**Run the project**
-It is a good practice to create a virtual environment to avoid dependency conflicts with other projects **
+   <br>It is a good practice to create a virtual environment to avoid dependency conflicts with other projects
+4. **Install dependencies and set up envs**
+5. **Run the project**
+   <br>It is a good practice to create a virtual environment to avoid dependency conflicts with other projects **
    
 ## Dataset
 This project uses the **TwitBot-20**, which can be obtained by contacting the dataset's author for authorization.
