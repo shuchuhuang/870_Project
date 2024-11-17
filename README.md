@@ -26,7 +26,7 @@ Follow these steps to get the project up and running on your local machine.
    First, clone the project repository to your local machine using Git:
 
    ```bash
-   git clone https://github.com/shuchuhuang/870_Project.git
+   git clone https://github.com/shuchuhuang/NCS870-Fall2024-Team6.git
 
 2. **Go to project folder**
      ```bash
